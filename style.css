@@ -1,0 +1,117 @@
+/* Reset some default styles for a consistent layout */
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans&display=swap');
+body {
+    font-family: "Mona Sans",serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: radial-gradient(circle, #6a0dad, #4a229e, #2c288c, #112977, #002660, #002654, #002447, #042239, #0c2334, #14242f, #1c252a, #232526);
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-top:10px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  header h2 {
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab.active {
+    background-color: #0056b3;
+  }
+  
+  .tab:hover {
+    background-color: #0056b3;
+  }
+  
+  #assignments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .assignment-item {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .assignment-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .assignment-item h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #6a0dad;
+  }
+  
+  .assignment-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .assignment-item strong {
+    color: #007BFF;
+  }
+  .tab {
+    background: linear-gradient(45deg, #6a0dad, #4a229e);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tab.active {
+    background: linear-gradient(45deg, #2c288c, #112977);
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .tab:hover {
+    background: linear-gradient(45deg, #4a229e, #2c288c);
+    transform: translateY(-2px);
+  }
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Completion</title>
+    <link rel="stylesheet" href="submission.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="subject-name">Subject Name</h1>
+            <h3 id="assignment-title">Assignment Title</h3>
+        </header>
+
+        <div class="assignment-details">
+            <p id="due-date"><strong>Due:</strong> Date</p>
+            <p id="instructions"></p>
+            <p id="points"><strong>Points:</strong> 100</p>
+        </div>
+
+        <label for="file-upload" class="file-label">Upload your file:</label>
+        <input type="file" id="file-upload">
+
+        <label for="submission-notes" class="file-label">Submission Notes:</label>
+        <textarea id="submission-notes" rows="4" placeholder="Add any notes here..."></textarea>
+
+        <button id="hand-in-button">Hand In</button>
+
+        <div class="overlay-container">
+            <div class="thumbs-up">
+                <img src="https://em-content.zobj.net/source/icons8/373/thumbs-up_1f44d.png" alt="Thumbs Up">
+                <img src="https://em-content.zobj.net/source/icons8/373/thumbs-up_1f44d.png" alt="Thumbs Up">
+                <img src="https://em-content.zobj.net/source/icons8/373/thumbs-up_1f44d.png" alt="Thumbs Up">
+            </div>
+        </div>
+    </div>
+
+    <script src="submission.js"></script>
+</body>
+</html>
